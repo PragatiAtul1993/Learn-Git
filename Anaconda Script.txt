@@ -1,0 +1,29 @@
+
+!pip install git+https://github.com/openai/whisper.git -q
+
+
+
+!whisper "C:\AudioFile\NumTest.wav" --model small --language English
+
+
+pip install -U openai-whisper
+
+pip install git+https://github.com/openai/whisper.git
+
+pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
+
+choco install ffmpeg
+
+pip install setuptools-rust
+
+
+whisper audio.wav --model medium
+
+whisper audio.wav --language English --task translate
+
+whisper --help
+
+!whisper "C:\AudioFile\NumTest.wav" --model small --language English
+
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+
